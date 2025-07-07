@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: radandri <radandri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/06 22:24:24 by radandri          #+#    #+#             */
-/*   Updated: 2025/07/07 22:13:10 by radandri         ###   ########.fr       */
+/*   Created: 2025/07/07 22:21:07 by radandri          #+#    #+#             */
+/*   Updated: 2025/07/07 22:22:59 by radandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+size_t	ft_strlcat(char * restrict dst, const char * restrict src, size_t dstsize)
 {
-	
+
 }

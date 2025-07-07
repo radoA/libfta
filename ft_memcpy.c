@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: radandri <radandri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/06 22:24:24 by radandri          #+#    #+#             */
-/*   Updated: 2025/07/07 22:13:10 by radandri         ###   ########.fr       */
+/*   Created: 2025/07/07 22:09:39 by radandri          #+#    #+#             */
+/*   Updated: 2025/07/07 22:20:14 by radandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 {
 	
 }
