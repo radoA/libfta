@@ -6,11 +6,13 @@
 /*   By: radandri <radandri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 22:16:09 by radandri          #+#    #+#             */
-/*   Updated: 2025/07/06 22:17:52 by radandri         ###   ########.fr       */
+/*   Updated: 2025/07/08 15:26:17 by radandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int	ft_isalnum(int c)
 {
-
+	return ft_isalpha(c) || ft_isdigit(c);
 }

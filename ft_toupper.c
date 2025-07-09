@@ -6,13 +6,14 @@
 /*   By: radandri <radandri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/07 22:23:43 by radandri          #+#    #+#             */
-/*   Updated: 2025/07/07 22:26:26 by radandri         ###   ########.fr       */
+/*   Updated: 2025/07/09 00:17:10 by radandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_toupper_l(int c, locale_t loc)
+int ft_toupper(int c, locale_t loc)
 {
-	
+	return 0;
+
 }
